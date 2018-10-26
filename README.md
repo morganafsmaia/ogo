@@ -11,7 +11,7 @@ Ogo is a web-based app, which does not store any user data.
 
 ## Timeline
 
-Ogo will be build in ~2 weeks as my personal project assignment, as part of my process to become a full-stack web-developer trainning at BSSA.
+Ogo will be build in ~2 weeks as my personal project assignment, as part of my process to become a full-stack web-developer training at BSSA.
 
 ## Built by:
 
