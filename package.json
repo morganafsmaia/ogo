@@ -1,0 +1,31 @@
+{
+  "name": "ogo",
+  "version": "1.0.0",
+  "description": "Ogo is a merge of charades and guessing games.",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/morganafsmaia/ogo.git"
+  },
+  "keywords": [
+    "games",
+    "ogo",
+    "morfsm",
+    "guessing",
+    "charades"
+  ],
+  "author": "morfsm",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/morganafsmaia/ogo/issues"
+  },
+  "homepage": "https://github.com/morganafsmaia/ogo#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "fs": "0.0.1-security"
+  }
+}
