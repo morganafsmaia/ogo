@@ -4,7 +4,6 @@
 const express = require("express");
 const fs = require("fs");
 const bodyParser = require("body-parser");
-const http = require("http");
 
 // setting hostname and port
 const hostname = "localhost";
