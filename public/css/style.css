@@ -1,0 +1,183 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  height: 100vh;
+  width: 100vw;
+}
+
+/* homepage /public */
+.navbar {
+  opacity: 0.8;
+  border-bottom: 0.2vh solid #fc3a52;
+}
+
+#footer {
+  opacity: 0.8;
+  border-top: 0.2vh solid #fc3a52;
+  /* rgb(252, 58, 82) */
+}
+
+#home-section {
+  background-image: url(/img/home.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center top;
+  color: white;
+  padding-bottom: 3vh;
+  padding-top: 2vh;
+}
+
+#home-section h1 {
+  text-shadow: 2px 2px 2px black;
+  word-wrap: break-word;
+  text-align: center;
+}
+
+#home-section p {
+  font-weight: bolder;
+  text-shadow: 2px 2px 2px black;
+}
+
+#home-section a {
+  text-align: center;
+  background-color: #fc3a52;
+  /* rgb(249, 178, 72) */
+  color: white;
+  font-weight: bolder;
+  font-size: 2rem;
+}
+
+#howto-head-section {
+  padding-top: 6vh;
+}
+
+/* Game page /public */
+
+#game {
+  font-family: "Mali", cursive;
+}
+
+/* start section */
+#start {
+  background-image: url(/img/start.jpg);
+  background-size: cover;
+  background-position: center center;
+  text-align: center;
+  font-size: 4rem;
+  min-height: 75vh;
+  padding-top: 15vh;
+  padding-bottom: 5vh;
+}
+
+/* select from start */
+#roundselection {
+  border-radius: 10%;
+}
+
+/* all button */
+#startbutton,
+#inter-button,
+#round-button,
+#timer-button,
+#points-button {
+  font-size: 3rem;
+  background-color: #fc3a52;
+  color: white;
+  border-radius: 10%;
+}
+
+/* intermission section */
+#intermission {
+  background-image: url(/img/intermission.jpg);
+  background-size: cover;
+  background-position: center center;
+  text-align: center;
+  font-size: 4rem;
+  min-height: 75vh;
+  padding-top: 15vh;
+  padding-bottom: 5vh;
+  color: white;
+  text-shadow: 4px 4px 4px #372154;
+}
+
+/* round section */
+#round {
+  background-image: url(/img/bulb-2124338.svg);
+  background-size: cover;
+  background-position: center center;
+  text-align: center;
+  font-size: 3rem;
+  min-height: 75vh;
+  padding-top: 15vh;
+  padding-bottom: 5vh;
+  color: #f9b248;
+  text-shadow: 4px 4px 4px black;
+}
+
+/* timer section */
+#timer {
+  background-image: url(/img/clock.jpg);
+  background-size: cover;
+  background-position: center center;
+  text-align: center;
+  font-size: 8rem;
+  min-height: 75vh;
+  padding-top: 15vh;
+  padding-bottom: 5vh;
+}
+
+/* result section */
+#result {
+  background-image: url(/img/result3.jpg);
+  background-size: cover;
+  background-position: center center;
+  text-align: center;
+  font-size: 4rem;
+  min-height: 75vh;
+  padding-top: 15vh;
+  padding-bottom: 5vh;
+  text-shadow: 4px 4px 4px white;
+}
+
+/* points section */
+#points {
+  background-image: url(/img/points.jpg);
+  background-size: cover;
+  background-position: center top;
+  text-align: center;
+  font-size: 5rem;
+  min-height: 75vh;
+  padding-top: 15vh;
+  padding-bottom: 5vh;
+}
+
+/* winner section */
+#winner {
+  word-wrap: break-word;
+  font-size: 3rem;
+  min-height: 75vh;
+  margin: 0;
+  padding-right: 0;
+  padding-left: 0;
+  overflow: hidden;
+  background: #111;
+  position: relative;
+}
+
+#winner-text {
+  padding-top: 15vh;
+  padding-bottom: 5vh;
+  text-align: center;
+  position: absolute;
+  color: white;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#replay {
+  font-size: 2rem;
+  background-color: #fc3a52;
+  color: white;
+  border-radius: 10%;
+}
